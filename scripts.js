@@ -11,8 +11,8 @@ function changeClasses() { // Classes
 }
 
 function changeText() { // Textos
-    const LightMode = "Light Mode";
-    const darkMode = "Dark-Mode";
+    const LightMode = "light-mode";
+    const darkMode = "dark-mode";
 
     if(body.classList.contains(darkModeClass)) {
         button.innerHTML = LightMode;
@@ -25,7 +25,7 @@ function changeText() { // Textos
     h1.innerHTML = LightMode + " ON";
 }
 
-const darkModeClass = 'Dark-Mode';
+const darkModeClass = 'dark-mode';
 const button = document.getElementById('mode-selector'); // Elemento button do html
 const h1 = document.getElementById('page-title'); // Elemento h1 do html
 const body = document.getElementsByTagName('body')[0]; // Elemento body do html
